@@ -3,8 +3,8 @@
   <component name="DataSourceManagerImpl" format="xml" hash="3586787698">
     <data-source source="LOCAL" name="Rails railsgirls: development" uuid="fa22e126-9502-4e2e-9e7f-a99d468edd61">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/development.sqlite3</jdbc-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails railsgirls: test" uuid="b36f0af4-c619-4ee3-8e7e-4d910e679ce9">
@@ -16,7 +16,7 @@
     <data-source source="LOCAL" name="Rails railsgirls: production" uuid="e0304828-8356-492e-9ec2-84613933fa40">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:postgresql:railsgirls_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
